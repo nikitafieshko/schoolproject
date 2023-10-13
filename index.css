@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.head{
+    background-color: #363435;
+    height: 8%;
+    width: 100%;  
+    display: flex;
+    align-items: center;    
+}
+
+.history{
+
+  color: aliceblue;
+  background-color:#363435 ;
+  margin-left: 13%;
+  font-family: "Quicksand";
+  height: 100%;
+  width: 15%;
+  font-size: 30px;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  
+}
+
+.mainMenu{
+ 
+  margin-left: 2% ; 
+  width: 5%;
+  
+}
+
+.history:hover{
+  background-color: #292828;
+}
+
+.attractions{
+  color: aliceblue;
+  background-color:#363435 ;  
+  font-family: "Quicksand";
+  height: 100%;
+  width: 40%;
+  font-size: 30px;
+}
+
+.attractions:hover{
+  background-color: #292828;
+  
+}
+
+
+.info{
+  height: 200px;
+  width: 20%;
+  
+
+}
+
+.personalities{
+  
+  color: aliceblue;
+  background-color:#363435 ;  
+  font-family: "Quicksand";
+  height: 100%;
+  width: 17%;
+  font-size: 30px;
+}
+
+.personalities:hover{
+  background-color: #292828;
+
+
+
+}
+.vtb{
+  margin-top: 20%;
+
+}
+.plc{
+  margin-top: 20%;
+}
+
+.brs{
+  margin-top: 20%;
+
+}
+
+.cities{
+  font-size: 40px;
+  height:902px ;
+  width: 20%; ;
+  text-align: center;
+
+ background-color: salmon;
+
+}
+
+.cities:hover{
+  background-image: black;
+  
+
+}
+
+.info{
+  font-size: 50px;
+  padding: 2%;
+  background-color: #9AD3BC;
+  height: 902px;
+  width: 80%;
+  text-align: center;
+
+
+}

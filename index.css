@@ -1,119 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-.page-content{
-display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap");
 
-
-
-
-}
-.head {
-  background-color: #363435;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.vtb {
-
-  color: aliceblue;
-  background-color: #363435;
-  margin-left: 13%;
-  font-family: "Quicksand";
-  height: 100%;
-  width: 15%;
-  font-size: 30px;
+:root {
+  --header-height-lg: 80px;
+  --nav-width-lg: 200px;
+  --head-bgc: #363435;
+  --aside-bgc: #f90e83;
 }
 
 body {
-  height: 100%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  background-color: var(--head-bgc);
+  height: var(--header-height-lg);
   width: 100%;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.mainMenu {
-
-  margin-left: 2%;
-  width: 5%;
-
+header img {
+  width: 60px;
+  height: 60px;
+  margin-left: 40px;
 }
 
-.vtb:hover {
-  background-color: #292828;
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
 }
 
-.plc {
-  color: aliceblue;
-  background-color: #363435;
-  font-family: "Quicksand";
+nav a {
+  color: white;
+  font-size: 26px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
   height: 100%;
-  width: 40%;
-  font-size: 30px;
+  min-height: calc(100vh - var(--header-height-lg));
 }
 
-.plc:hover {
-  background-color: #292828;
-
+aside {
+  background-color: var(--aside-bgc);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-
-
-.brs {
-
-  color: aliceblue;
-  background-color: #363435;
-  font-family: "Quicksand";
-  height: 100%;
-  width: 17%;
-  font-size: 30px;
+aside a {
+  color: white;
+  font-size: 24px;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
-.brs:hover {
-  background-color: #292828;
-
-
-
-}
-
-.history {
-  margin-top: 20%;
-
-}
-
-.attractions {
-  margin-top: 20%;
-}
-
-.personalities {
-  margin-top: 20%;
-
-}
-
-.cities {
-  font-size: 40px;
-  
-  width: 20%;
-  ;
+h1 {
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
   text-align: center;
-
-  background-color: salmon;
-
+  margin-bottom: 20px;
 }
 
-.cities:hover {
-  background-image: black;
-
-
+article {
+  padding: 20px;
 }
 
-.info {
+p {
+  margin-bottom: 10px;
   font-size: 20px;
-  padding: 2%;
-  background-color: #9AD3BC;
- display:block;
- justify-content: center;
-  width: 80%;
-  text-align: center;
-
-
 }

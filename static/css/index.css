@@ -57,7 +57,7 @@ aside {
 }
 
 aside a {
-  color: white;
+  color: rgb(183, 210, 188);
   font-size: 24px;
   &:hover {
     text-decoration: underline;
@@ -85,4 +85,15 @@ p {
 
 .homepage {
   width: 100%;
+}
+
+header nav a.active{
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid red;
+}
+
+main aside a.active {
+  color: white;
 }

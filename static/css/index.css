@@ -74,9 +74,16 @@ h1 {
 
 article {
   padding: 20px;
+  width: 100%;
 }
 
 p {
   margin-bottom: 10px;
   font-size: 20px;
+}
+
+
+.homepage {
+  text-align: center;
+  width: 100%;
 }

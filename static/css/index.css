@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap");
 
-body img{
-
-margin-top: 3%;
-
-}
-li{
+li {
   margin-bottom: 10px;
   font-size: 20px;
 
@@ -22,7 +17,7 @@ hr {
 
   background-color: #363435;
   color: #363435;
-  height: 10px;
+  height: 8px;
 
 }
 
@@ -44,6 +39,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.contentATR {
+  gap: 10px;
+  font-size: 30px;
+
 }
 
 header img {
@@ -104,7 +105,7 @@ h2 {
   font-size: 25px;
   color: black;
   font-weight: bold;
-  text-align: center;
+  
   margin-bottom: 20px;
 }
 
@@ -133,8 +134,19 @@ header nav a.active {
 main aside a.active {
   color: white;
 }
-html{
+
+html {
   scroll-behavior: smooth;
-  
-  
-  }
+
+
+}
+
+h3 {
+  font-size: 23px;
+
+}
+body img{
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.3);
+  border-radius: 20%;
+
+}

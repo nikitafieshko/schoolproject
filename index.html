@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="./static/css/reset.css" />
-    <link rel="stylesheet" href="./static/css/index.css" />
-    <script src="./static/js/index.js"></script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Домашняя страница</title>
-  </head>
 
-  <body>
-    <header>
-      <a class="logo" href="index.html">
-        <img src="./static/images/shared/logo.png" />
-      </a>
-      <nav>
-        <a href="articles/vitebsk/history.html">Витебск</a>
-        <a href="articles/polotsk/history.html">Полоцк</a>
-        <a href="articles/braslav/history.html">Браслав</a>
-      </nav>
-    </header>
-    <div class="homepage">
-      <h1>Главная Страница</h1>
-      <p>Поговорим про такие города как: Витебск, Полоцк и Браслав</p>
-      <img src="./static/images/articles/kt-01.jpg" />
-      <p>
-        Наша область граничит c 3 странами: Литва, Латвия и Российская
-        Федерация, а внтутри Беларуси с Минской, Могилевской и Гродненской
-        областями.
-      </p>
-    </div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js" defer></script>
+    <script src="libs/rain.js" defer></script>
+</head>
+
+<body>
+    <section class="layers">
+        <div class="layers__container">
+            <div class="layers__item layer-1" style="background-image: url(img/layer-1.jpg);"></div>
+            <div class="layers__item layer-2" style="background-image: url(img/layer-2.png);"></div>
+            <div class="layers__item layer-3">
+                <div class="hero-content">
+                    <h1>Средства созданя сайтов<span>HTML/CSS/JS и т.д</span></h1>
+                    <div class="hero-content__p">В этой статье мы поговорим про инструменты созданя сайтов</div>
+                    <a  href="static/genInfo.html" class="a-start" >Перейти к информации</a>
+                </div>
+            </div>
+            <div class="layers__item layer-4">
+                <canvas class="rain"></canvas>
+            </div>
+            <div class="layers__item layer-5" style="background-image: url(img/layer-5.png);"></div>
+            <div class="layers__item layer-6" style="background-image: url(img/layer-6.png);"></div>
+        </div>
+
+    </section>
+   
+</body>
+
 </html>
